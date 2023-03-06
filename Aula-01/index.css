@@ -1,0 +1,15 @@
+body {
+    background-color: rgba(155, 225, 243, 0.815);
+}
+
+.box{
+    width: 100px; /*largura*/
+    height: 100px; /*altura*/
+    border: 3px dashed cornflowerblue; /* espessura, estilo cor da borda */ 
+}
+
+.row {
+    display: flex;/*habilita os recursos do flex*/
+    flex-direction: row;/* transforma o elemento em uma linha (horinsontal)*/
+    gap: 20px;
+}
