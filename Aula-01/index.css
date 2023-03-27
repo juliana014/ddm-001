@@ -1,15 +1,36 @@
 body {
-    background-color: rgba(155, 225, 243, 0.815);
+    background-color: rgba(60, 68, 70, 0.815);
 }
 
 .box{
-    width: 100px; /*largura*/
+    min-width: 100px; /*largura*/
     height: 100px; /*altura*/
-    border: 3px dashed cornflowerblue; /* espessura, estilo cor da borda */ 
+    border: 3px dashed rgb(58, 60, 66); /* espessura, estilo cor da borda */ 
 }
 
 .row {
     display: flex;/*habilita os recursos do flex*/
     flex-direction: row;/* transforma o elemento em uma linha (horinsontal)*/
     gap: 20px;
+    background-color: black;
+    flex-wrap: wrap;
+
+
+}
+.row:nth-of-type(1) {
+    background-color: blueviolet;
+    justify-content: flex-start;
+}
+.row:nth-of-type(2) {
+    background-color: blue;
+    justify-content: center;
+}
+.row:nth-of-type(3) {
+    background-color: brown;
+    justify-content: end;
+}
+.row:nth-of-type(4) {
+    background-color: blanchedalmond;
+    justify-content: space-between;
+
 }
