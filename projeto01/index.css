@@ -1,0 +1,54 @@
+/*
+elemento {
+   attributo: valor;
+   attributo: valor;
+   attributo: valor;
+}
+*/
+body{
+  margin: 0;
+  
+}
+
+h3{
+  margin: 0;
+}
+
+header{ 
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;/*espalha os elementos na tela*/
+  align-items: center;
+  padding: 20px;
+  max-width: 100;
+    background-color: rgb(132, 154, 158);
+  box-shadow: 0px 3px 30px 2px rgb(13, 14, 14);
+    /*1 valor: da esqueda pra direira
+      2 valor: pra cima e pra baixo
+      3 valor : a expeçura da sombra
+      4 valor: cor da sombra*/
+      
+}
+
+  .material-symbols-outlined{
+    font-size: 35px;
+  }
+  
+footer{
+  flex-direction: row;
+  display: flex;
+  justify-content: center;/*espalha os elementos na tela*/
+  align-items: center;
+  padding: 20px;
+  max-width: 400;
+  background-color: rgb(106, 124, 126);
+  box-shadow: 0px 3px 30px 2px rgb(13, 14, 14);
+  position: absolute;
+  bottom: 0px ;
+  width:  100%;
+
+
+}
+
+  
+
