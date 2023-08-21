@@ -1,3 +1,20 @@
 #imagem{
-    border: 50%;
+    border: 70%;
+    float: left;
 }
+body {
+    background-color: rgb(7, 15, 41);
+}
+#text{
+    background: rgb(7, 15, 41);
+   
+}
+#principio > * {
+    flex-basis: 300px;
+
+}
+#cabesalho{
+    background-color: rgb(12, 26, 71);
+}
+
+
