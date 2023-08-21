@@ -15,6 +15,13 @@ body {
 }
 #cabesalho{
     background-color: rgb(12, 26, 71);
+    border:1px solid black;
+    box-shadow: 100px 100px
+}
+#footer{
+    background-color: rgb(7, 15, 41);
+    border:1px solid black;
+    box-shadow: 100px 100px 
 }
 
 

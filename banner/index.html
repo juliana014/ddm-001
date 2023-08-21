@@ -5,25 +5,27 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Volei</title>
+
+
+
+  <link rel="stylesheet" href="flex.css">
+  <link rel="stylesheet" href="flex-style.css">
+  <link rel="stylesheet" href="flex-animations.css">
+  <script src="flex-animations.js"></script>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body>
-  <link rel="stylesheet" href="flex.css">
-  <link rel="stylesheet" href="flex-style.css">
-  <link rel="stylesheet" href="index.css">
-  <script src="index.js"> </script>
-  <title>vôlei</title>
-
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
   <header id="cabesalho" class="flex-row content-vcenter space-10 content-space-between  box ">
-    <div class="flex-row content-vcenter gap-15">
+    <div class="flex-row content-vcenter gap-15" data-animation="zoom">
       <span class="material-symbols-outlined">
         sports_volleyball
       </span>
-      <span margin="10">
+      <span margin="5">
         <h3> VÔLEI </h3>
       </span>
 
@@ -32,19 +34,19 @@
     <nav>
       <div class="flex-row content-vcenter  gap-15">
 
-        <a href="">
+        <a href="" data-animation="fade-down" data-animation-delay="300">
           <h4> seção 01 </h4>
         </a>
-        <a href="">
+        <a href="" data-animation="fade-up" data-animation-delay="400">
           <h4> seçaõ 02 </h4>
         </a>
-        <a href="">
+        <a href="" data-animation="fade-down" data-animation-delay="500">
           <h4> seçaõ 03 </h4>
         </a>
-        <a href="">
+        <a href="" data-animation="fade-up" data-animation-delay="600">
           <h4> seção 04 </h4>
         </a>
-        <a href="">
+        <a href="" data-animation="fade-down" data-animation-delay="700">
           <h4> seção 05 </h4>
         </a>
 
@@ -62,7 +64,7 @@
     <h1>Quadras</h1>
     <h4>Nossas quadras são as melhores para você</h4>
   </div>
-  <div class="flex-row content-center" haight="10" width="140">
+  <div class="flex-row content-center" haight="10" width="140" >
 
 
     <div class="flex-row  gap-40 content-space-between">
@@ -79,7 +81,7 @@
   <br>
 
   <div class="flex-row content-center gap-40" id="principio">
-    <img src="treino02.jpg" class="img-thumbnail " alt="img" height="250" width="250">
+    <img src="treino02.jpg" class="img-thumbnail " alt="img" height="250" width="250" >
 
     <div>
       <h4>O principal diferencial da Escola de Vôlei
@@ -91,7 +93,7 @@
 
     <div>
       <h4>
-        <li>Disciplina </li>
+        <li  >Disciplina </li>
       </h4>
       <h4>
         <li> Cooperação </li>
@@ -114,20 +116,20 @@
 
     <div>
       <h4>Prioriza o aprendizado de uma maneira lúdica e dinâmica.
-         As categorias seguem a mesma metodologia de ensino, 
-         com cada aula dividida em três momentos 
+        As categorias seguem a mesma metodologia de ensino,
+        com cada aula dividida em três momentos
       </h4>
     </div>
 
     <div>
       <h4>
         <li> Aquecimento e aperfeiçoamento da técnica individual.
-          
-           </li>
+
+        </li>
       </h4>
       <h4>
-        <li>  Desenvolvimento da tática de jogo
-          </li>
+        <li> Desenvolvimento da tática de jogo
+        </li>
       </h4>
       <h4>
         <li> Jogo propriamente dito. </li>
@@ -135,10 +137,35 @@
     </div>
 
   </div>
+  <br>
+  <br>
+  <br>
+  <br>
 
 
+  <footer id="footer" class=" box ">
 
+    <div class="flex-row content-center justify-content-center gap-40 ">
 
+      <span class="material-symbols-outlined" data-animation="zoom" data-animation-delay="300">
+        sports_volleyball
+      </span>
+      <span margin="5" data-animation="zoom" data-animation-delay="300">
+        <h3> VÔLEI </h3>
+      </span>
+
+      <a href="" data-animation="zoom" data-animation-delay="300">
+        <h4> Telefone</h4>
+      </a>
+      <a href="" data-animation="zoom" data-animation-delay="300">
+        <h4> Email </h4>
+      </a>
+      <a href="" data-animation="zoom" data-animation-delay="300">
+        <h4> Localização</h4>
+      </a>
+    </div>
+
+  </footer>
 
 </body>
 
